@@ -1,0 +1,27 @@
+{
+  "name": "backend-grapql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "graphql-tools": "^8.3.6",
+    "mongo": "^0.1.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
